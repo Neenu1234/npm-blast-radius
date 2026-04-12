@@ -1,5 +1,5 @@
-streamlit==1.32.0
-plotly==5.20.0
-networkx==3.2.1
-pandas==2.2.1
-requests==2.31.0
+streamlit>=1.40.0
+plotly>=5.20.0
+networkx>=3.2.1
+pandas>=2.2.1
+requests>=2.31.0
