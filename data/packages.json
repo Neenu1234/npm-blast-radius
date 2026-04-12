@@ -1,0 +1,632 @@
+{
+  "lodash": {
+    "name": "lodash",
+    "version": "4.18.1",
+    "description": "Lodash modular utilities.",
+    "dependencies": [],
+    "weekly_downloads": 122509818
+  },
+  "axios": {
+    "name": "axios",
+    "version": "1.15.0",
+    "description": "Promise based HTTP client for the browser and node.js",
+    "dependencies": [
+      "follow-redirects",
+      "form-data",
+      "proxy-from-env"
+    ],
+    "weekly_downloads": 91481679
+  },
+  "react": {
+    "name": "react",
+    "version": "19.2.5",
+    "description": "React is a JavaScript library for building user interfaces.",
+    "dependencies": [],
+    "weekly_downloads": 103727111
+  },
+  "react-dom": {
+    "name": "react-dom",
+    "version": "19.2.5",
+    "description": "React package for working with the DOM.",
+    "dependencies": [
+      "scheduler"
+    ],
+    "weekly_downloads": 99709035
+  },
+  "express": {
+    "name": "express",
+    "version": "5.2.1",
+    "description": "Fast, unopinionated, minimalist web framework",
+    "dependencies": [
+      "qs",
+      "depd",
+      "etag",
+      "once",
+      "send",
+      "vary",
+      "debug",
+      "fresh",
+      "cookie",
+      "router",
+      "accepts",
+      "type-is",
+      "parseurl",
+      "statuses",
+      "encodeurl",
+      "mime-types",
+      "proxy-addr",
+      "body-parser",
+      "escape-html",
+      "http-errors",
+      "on-finished",
+      "content-type",
+      "finalhandler",
+      "range-parser",
+      "serve-static",
+      "cookie-signature",
+      "merge-descriptors",
+      "content-disposition"
+    ],
+    "weekly_downloads": 83554160
+  },
+  "moment": {
+    "name": "moment",
+    "version": "2.30.1",
+    "description": "Parse, validate, manipulate, and display dates",
+    "dependencies": [],
+    "weekly_downloads": 28266053
+  },
+  "chalk": {
+    "name": "chalk",
+    "version": "5.6.2",
+    "description": "Terminal string styling done right",
+    "dependencies": [],
+    "weekly_downloads": 373353984
+  },
+  "commander": {
+    "name": "commander",
+    "version": "14.0.3",
+    "description": "the complete solution for node.js command-line programs",
+    "dependencies": [],
+    "weekly_downloads": 315116036
+  },
+  "webpack": {
+    "name": "webpack",
+    "version": "5.106.0",
+    "description": "Packs ECMAScript/CommonJs/AMD modules for the browser. Allows you to split your codebase into multiple bundles, which can be loaded on demand. Supports loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.",
+    "dependencies": [
+      "@types/eslint-scope",
+      "@types/estree",
+      "@types/json-schema",
+      "@webassemblyjs/ast",
+      "@webassemblyjs/wasm-edit",
+      "@webassemblyjs/wasm-parser",
+      "acorn",
+      "acorn-import-phases",
+      "browserslist",
+      "chrome-trace-event",
+      "enhanced-resolve",
+      "es-module-lexer",
+      "eslint-scope",
+      "events",
+      "glob-to-regexp",
+      "graceful-fs",
+      "json-parse-even-better-errors",
+      "loader-runner",
+      "mime-types",
+      "neo-async",
+      "schema-utils",
+      "tapable",
+      "terser-webpack-plugin",
+      "watchpack",
+      "webpack-sources"
+    ],
+    "weekly_downloads": 40361132
+  },
+  "typescript": {
+    "name": "typescript",
+    "version": "6.0.2",
+    "description": "TypeScript is a language for application scale JavaScript development",
+    "dependencies": [],
+    "weekly_downloads": 150252843
+  },
+  "jest": {
+    "name": "jest",
+    "version": "30.3.0",
+    "description": "Delightful JavaScript Testing.",
+    "dependencies": [
+      "@jest/core",
+      "@jest/types",
+      "import-local",
+      "jest-cli"
+    ],
+    "weekly_downloads": 39949732
+  },
+  "eslint": {
+    "name": "eslint",
+    "version": "10.2.0",
+    "description": "An AST-based pattern checker for JavaScript.",
+    "dependencies": [
+      "@eslint-community/eslint-utils",
+      "@eslint-community/regexpp",
+      "@eslint/config-array",
+      "@eslint/config-helpers",
+      "@eslint/core",
+      "@eslint/plugin-kit",
+      "@humanfs/node",
+      "@humanwhocodes/module-importer",
+      "@humanwhocodes/retry",
+      "@types/estree",
+      "ajv",
+      "cross-spawn",
+      "debug",
+      "escape-string-regexp",
+      "eslint-scope",
+      "eslint-visitor-keys",
+      "espree",
+      "esquery",
+      "esutils",
+      "fast-deep-equal",
+      "file-entry-cache",
+      "find-up",
+      "glob-parent",
+      "ignore",
+      "imurmurhash",
+      "is-glob",
+      "json-stable-stringify-without-jsonify",
+      "minimatch",
+      "natural-compare",
+      "optionator"
+    ],
+    "weekly_downloads": 105282142
+  },
+  "prettier": {
+    "name": "prettier",
+    "version": "3.8.2",
+    "description": "Prettier is an opinionated code formatter",
+    "dependencies": [],
+    "weekly_downloads": 75195779
+  },
+  "@babel/core": {
+    "name": "@babel/core",
+    "version": "7.29.0",
+    "description": "Babel compiler core.",
+    "dependencies": [
+      "debug",
+      "json5",
+      "semver",
+      "gensync",
+      "@babel/types",
+      "@babel/parser",
+      "@babel/helpers",
+      "@babel/template",
+      "@babel/traverse",
+      "@babel/generator",
+      "@babel/code-frame",
+      "convert-source-map",
+      "@jridgewell/remapping",
+      "@babel/helper-module-transforms",
+      "@babel/helper-compilation-targets"
+    ],
+    "weekly_downloads": 117294522
+  },
+  "next": {
+    "name": "next",
+    "version": "16.2.3",
+    "description": "The React Framework",
+    "dependencies": [
+      "postcss",
+      "@next/env",
+      "styled-jsx",
+      "@swc/helpers",
+      "caniuse-lite",
+      "baseline-browser-mapping"
+    ],
+    "weekly_downloads": 36759559
+  },
+  "vue": {
+    "name": "vue",
+    "version": "3.5.32",
+    "description": "The progressive JavaScript framework for building modern web UI.",
+    "dependencies": [
+      "@vue/shared",
+      "@vue/runtime-dom",
+      "@vue/compiler-dom",
+      "@vue/server-renderer",
+      "@vue/compiler-sfc"
+    ],
+    "weekly_downloads": 10359872
+  },
+  "jquery": {
+    "name": "jquery",
+    "version": "4.0.0",
+    "description": "JavaScript library for DOM operations",
+    "dependencies": [],
+    "weekly_downloads": 18603366
+  },
+  "underscore": {
+    "name": "underscore",
+    "version": "1.13.8",
+    "description": "JavaScript's functional programming helper library.",
+    "dependencies": [],
+    "weekly_downloads": 19729013
+  },
+  "async": {
+    "name": "async",
+    "version": "3.2.6",
+    "description": "Higher-order functions and common patterns for asynchronous code",
+    "dependencies": [],
+    "weekly_downloads": 80685476
+  },
+  "bluebird": {
+    "name": "bluebird",
+    "version": "3.7.2",
+    "description": "Full featured Promises/A+ implementation with exceptionally good performance",
+    "dependencies": [],
+    "weekly_downloads": 38629479
+  },
+  "rxjs": {
+    "name": "rxjs",
+    "version": "7.8.2",
+    "description": "Reactive Extensions for modern JavaScript",
+    "dependencies": [
+      "tslib"
+    ],
+    "weekly_downloads": 75398189
+  },
+  "ramda": {
+    "name": "ramda",
+    "version": "0.32.0",
+    "description": "A practical functional library for JavaScript programmers.",
+    "dependencies": [],
+    "weekly_downloads": 11744482
+  },
+  "immutable": {
+    "name": "immutable",
+    "version": "5.1.5",
+    "description": "Immutable Data Collections",
+    "dependencies": [],
+    "weekly_downloads": 34147374
+  },
+  "redux": {
+    "name": "redux",
+    "version": "5.0.1",
+    "description": "Predictable state container for JavaScript apps",
+    "dependencies": [],
+    "weekly_downloads": 26920743
+  },
+  "styled-components": {
+    "name": "styled-components",
+    "version": "6.4.0",
+    "description": "Fast, expressive styling for React.",
+    "dependencies": [
+      "@emotion/is-prop-valid",
+      "css-to-react-native",
+      "csstype",
+      "stylis"
+    ],
+    "weekly_downloads": 8478208
+  },
+  "vite": {
+    "name": "vite",
+    "version": "8.0.8",
+    "description": "Native-ESM powered web dev build tool",
+    "dependencies": [
+      "lightningcss",
+      "picomatch",
+      "postcss",
+      "rolldown",
+      "tinyglobby"
+    ],
+    "weekly_downloads": 83147408
+  },
+  "rollup": {
+    "name": "rollup",
+    "version": "4.60.1",
+    "description": "Next-generation ES module bundler",
+    "dependencies": [
+      "@types/estree"
+    ],
+    "weekly_downloads": 82036188
+  },
+  "esbuild": {
+    "name": "esbuild",
+    "version": "0.28.0",
+    "description": "An extremely fast JavaScript and CSS bundler and minifier.",
+    "dependencies": [],
+    "weekly_downloads": 147402045
+  },
+  "mongoose": {
+    "name": "mongoose",
+    "version": "9.4.1",
+    "description": "Mongoose MongoDB ODM",
+    "dependencies": [
+      "kareem",
+      "mongodb",
+      "mpath",
+      "mquery",
+      "ms",
+      "sift"
+    ],
+    "weekly_downloads": 4312688
+  },
+  "sequelize": {
+    "name": "sequelize",
+    "version": "6.37.8",
+    "description": "Sequelize is a promise-based Node.js ORM tool for Postgres, MySQL, MariaDB, SQLite, Microsoft SQL Server, Amazon Redshift and Snowflake\u2019s Data Cloud. It features solid transaction support, relations, eager and lazy loading, read replication and more.",
+    "dependencies": [
+      "@types/debug",
+      "@types/validator",
+      "debug",
+      "dottie",
+      "inflection",
+      "lodash",
+      "moment",
+      "moment-timezone",
+      "pg-connection-string",
+      "retry-as-promised",
+      "semver",
+      "sequelize-pool",
+      "toposort-class",
+      "uuid",
+      "validator",
+      "wkx"
+    ],
+    "weekly_downloads": 2438535
+  },
+  "knex": {
+    "name": "knex",
+    "version": "3.2.9",
+    "description": "A batteries-included SQL query & schema builder for PostgresSQL, MySQL, CockroachDB, MSSQL and SQLite3",
+    "dependencies": [
+      "colorette",
+      "commander",
+      "debug",
+      "escalade",
+      "esm",
+      "get-package-type",
+      "getopts",
+      "interpret",
+      "lodash",
+      "pg-connection-string",
+      "rechoir",
+      "resolve-from",
+      "tarn",
+      "tildify"
+    ],
+    "weekly_downloads": 3449024
+  },
+  "pg": {
+    "name": "pg",
+    "version": "8.20.0",
+    "description": "PostgreSQL client - pure javascript & libpq with the same API",
+    "dependencies": [
+      "pg-connection-string",
+      "pg-pool",
+      "pg-protocol",
+      "pg-types",
+      "pgpass",
+      "pg-cloudflare"
+    ],
+    "weekly_downloads": 20888193
+  },
+  "socket.io": {
+    "name": "socket.io",
+    "version": "4.8.3",
+    "description": "node.js realtime framework server",
+    "dependencies": [
+      "accepts",
+      "base64id",
+      "cors",
+      "debug",
+      "engine.io",
+      "socket.io-adapter",
+      "socket.io-parser"
+    ],
+    "weekly_downloads": 11442655
+  },
+  "fastify": {
+    "name": "fastify",
+    "version": "5.8.4",
+    "description": "Fast and low overhead web framework, for Node.js",
+    "dependencies": [
+      "@fastify/ajv-compiler",
+      "@fastify/error",
+      "@fastify/fast-json-stringify-compiler",
+      "@fastify/proxy-addr",
+      "abstract-logging",
+      "avvio",
+      "fast-json-stringify",
+      "find-my-way",
+      "light-my-request",
+      "pino",
+      "process-warning",
+      "rfdc",
+      "secure-json-parse",
+      "semver",
+      "toad-cache"
+    ],
+    "weekly_downloads": 5398961
+  },
+  "koa": {
+    "name": "koa",
+    "version": "3.2.0",
+    "description": "Koa web app framework",
+    "dependencies": [
+      "accepts",
+      "content-disposition",
+      "content-type",
+      "cookies",
+      "delegates",
+      "destroy",
+      "encodeurl",
+      "escape-html",
+      "fresh",
+      "http-assert",
+      "http-errors",
+      "koa-compose",
+      "mime-types",
+      "on-finished",
+      "parseurl",
+      "statuses",
+      "type-is",
+      "vary"
+    ],
+    "weekly_downloads": 5985658
+  },
+  "dotenv": {
+    "name": "dotenv",
+    "version": "17.4.1",
+    "description": "Loads environment variables from .env file",
+    "dependencies": [],
+    "weekly_downloads": 107441056
+  },
+  "uuid": {
+    "name": "uuid",
+    "version": "13.0.0",
+    "description": "RFC9562 UUIDs",
+    "dependencies": [],
+    "weekly_downloads": 216769547
+  },
+  "date-fns": {
+    "name": "date-fns",
+    "version": "4.1.0",
+    "description": "Modern JavaScript date utility library",
+    "dependencies": [],
+    "weekly_downloads": 57678369
+  },
+  "dayjs": {
+    "name": "dayjs",
+    "version": "1.11.20",
+    "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
+    "dependencies": [],
+    "weekly_downloads": 39656337
+  },
+  "zod": {
+    "name": "zod",
+    "version": "4.3.6",
+    "description": "TypeScript-first schema declaration and validation library with static type inference",
+    "dependencies": [],
+    "weekly_downloads": 129934919
+  },
+  "yup": {
+    "name": "yup",
+    "version": "1.7.1",
+    "description": "Dead simple Object schema validation",
+    "dependencies": [
+      "property-expr",
+      "tiny-case",
+      "toposort",
+      "type-fest"
+    ],
+    "weekly_downloads": 0
+  },
+  "joi": {
+    "name": "joi",
+    "version": "18.1.2",
+    "description": "Object schema validation",
+    "dependencies": [
+      "@hapi/address",
+      "@hapi/formula",
+      "@hapi/hoek",
+      "@hapi/pinpoint",
+      "@hapi/tlds",
+      "@hapi/topo",
+      "@standard-schema/spec"
+    ],
+    "weekly_downloads": 0
+  },
+  "ajv": {
+    "name": "ajv",
+    "version": "8.18.0",
+    "description": "Another JSON Schema Validator",
+    "dependencies": [
+      "fast-uri",
+      "fast-deep-equal",
+      "require-from-string",
+      "json-schema-traverse"
+    ],
+    "weekly_downloads": 0
+  },
+  "semver": {
+    "name": "semver",
+    "version": "7.7.4",
+    "description": "The semantic version parser used by npm.",
+    "dependencies": [],
+    "weekly_downloads": 0
+  },
+  "glob": {
+    "name": "glob",
+    "version": "13.0.6",
+    "description": "the most correct and second fastest glob implementation in JavaScript",
+    "dependencies": [
+      "minimatch",
+      "minipass",
+      "path-scurry"
+    ],
+    "weekly_downloads": 0
+  },
+  "minimist": {
+    "name": "minimist",
+    "version": "1.2.8",
+    "description": "parse argument options",
+    "dependencies": [],
+    "weekly_downloads": 0
+  },
+  "yargs": {
+    "name": "yargs",
+    "version": "18.0.0",
+    "description": "yargs the modern, pirate-themed, successor to optimist.",
+    "dependencies": [
+      "cliui",
+      "escalade",
+      "get-caller-file",
+      "string-width",
+      "y18n",
+      "yargs-parser"
+    ],
+    "weekly_downloads": 158233000
+  },
+  "nodemon": {
+    "name": "nodemon",
+    "version": "3.1.14",
+    "description": "Simple monitor script for use during development of a Node.js app.",
+    "dependencies": [
+      "debug",
+      "touch",
+      "semver",
+      "chokidar",
+      "minimatch",
+      "undefsafe",
+      "pstree.remy",
+      "supports-color",
+      "ignore-by-default",
+      "simple-update-notifier"
+    ],
+    "weekly_downloads": 0
+  },
+  "concurrently": {
+    "name": "concurrently",
+    "version": "9.2.1",
+    "description": "Run commands concurrently",
+    "dependencies": [
+      "rxjs",
+      "chalk",
+      "yargs",
+      "tree-kill",
+      "shell-quote",
+      "supports-color"
+    ],
+    "weekly_downloads": 13551748
+  },
+  "cross-env": {
+    "name": "cross-env",
+    "version": "10.1.0",
+    "description": "Run scripts that set and use environment variables across platforms",
+    "dependencies": [
+      "@epic-web/invariant",
+      "cross-spawn"
+    ],
+    "weekly_downloads": 0
+  }
+}
