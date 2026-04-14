@@ -70,6 +70,11 @@ st.markdown("""
     /* expander header */
     [data-testid="stExpander"] summary p { color: #ffffff !important; }
 
+    /* hide GitHub icon */
+    [data-testid="stToolbar"] { display: none !important; }
+    #MainMenu { visibility: hidden !important; }
+    footer { visibility: hidden !important; }
+
     /* tag pills */
     .pill {
         display: inline-block;
