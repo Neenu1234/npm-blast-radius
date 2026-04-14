@@ -60,6 +60,10 @@ st.markdown("""
     [data-testid="stSelectbox"] label,
     [data-testid="stMetric"] label { color: #ffffff !important; }
 
+    /* selectbox selected value text - black for readability */
+    [data-testid="stSelectbox"] div[data-baseweb="select"] div,
+    [data-testid="stSelectbox"] div[data-baseweb="select"] span { color: #000000 !important; }
+
     /* dataframe text */
     [data-testid="stDataFrame"] * { color: #ffffff !important; }
 
